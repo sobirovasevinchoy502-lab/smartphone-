@@ -3,8 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
-.h1 {
+.title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.input {
+     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.input__nav {
+    border-radius: 50px;
+    padding: 5px;
+    margin: 1px;
+}
+
+.input__div {
+    border-radius: 50px;
+    padding: 5px;
+    margin: 1px;
+}
+
+.body {
+ background: url( Камни.jpg) no-repeat center center / cover fixed;
+ 
+}
+.label {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+     color: orange;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+   
+}
+
